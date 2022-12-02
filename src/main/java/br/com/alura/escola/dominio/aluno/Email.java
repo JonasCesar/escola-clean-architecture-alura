@@ -1,4 +1,4 @@
-package br.com.alura.escola.aluno;
+package br.com.alura.escola.dominio.aluno;
 //foi feito uma classe email pq aqui teremos uma validação do valor
 //Essa classe não é uma entidade no clean architecture, ela é uma value object (podem existir aqui dois objetos com o mesmo valor)
 public class Email {
