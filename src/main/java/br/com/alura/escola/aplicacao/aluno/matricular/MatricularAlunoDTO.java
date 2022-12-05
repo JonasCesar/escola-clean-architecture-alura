@@ -17,7 +17,7 @@ public class MatricularAlunoDTO {
 	
 	public Aluno criarAluno(MatricularAlunoDTO dto) {
 		FabricaDeAluno fabrica = new FabricaDeAluno();
-		Aluno novoAluno = fabrica.comNomeCPFEmail(dto.cpfAluno, dto.nomeAluno, dto.emailAluno).criar();
+		Aluno novoAluno = fabrica.comNomeCPFEmail(dto.nomeAluno, dto.cpfAluno, dto.emailAluno).criar();
 		return novoAluno;
 	}
 	

@@ -2,10 +2,6 @@ package br.com.alura.escola;
 
 import br.com.alura.escola.aplicacao.aluno.matricular.MatricularAluno;
 import br.com.alura.escola.aplicacao.aluno.matricular.MatricularAlunoDTO;
-import br.com.alura.escola.dominio.aluno.Aluno;
-import br.com.alura.escola.dominio.aluno.CPF;
-import br.com.alura.escola.dominio.aluno.Email;
-import br.com.alura.escola.dominio.aluno.RepositorioDeAlunos;
 import br.com.alura.escola.infra.aluno.RepositorioDeAlunosEmMemoria;
 
 //Classe pra simular a entrada de dados (interface com o usuário)
